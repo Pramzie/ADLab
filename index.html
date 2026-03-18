@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AD Lab — Experiment Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-logo"><span>//</span> AD_LAB <span>v2025</span></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#experiments">Experiments</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-tag">Application Development Lab — Experiment Portfolio</div>
+    <h1><span class="accent">AD</span>_LAB<span class="cursor"></span></h1>
+    <p class="hero-sub">
+      A collection of 8 hands-on experiments exploring full-stack application development,
+      UI engineering, and system design — built by
+      <span style="color:var(--green)">Sagnik Pramanik</span>
+      during the Application Development Lab course.
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">08</div>
+        <div class="stat-label">Experiments</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">01</div>
+        <div class="stat-label">Semester</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">∞</div>
+        <div class="stat-label">Learning</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track" id="marquee-track"></div>
+  </div>
+
+  <!-- EXPERIMENTS -->
+  <section class="section-wrap" id="experiments">
+    <div class="section-header"><h2>// Experiments</h2></div>
+    <div class="grid" id="card-grid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section-wrap" id="about">
+    <div class="section-header"><h2>// About</h2></div>
+    <div class="about-box">
+      <p>This portfolio documents experiments from the Application Development Lab. Each experiment targets a specific concept in modern software development — from UI design to backend integration and deployment.</p>
+      <p style="margin-top:1rem;">Student: Sagnik Pramanik &nbsp;|&nbsp; Roll No. 2330399 &nbsp;|&nbsp; Section ECS-04 &nbsp;|&nbsp; 3rd Year</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="section-wrap" style="padding-bottom:0;">
+    <div class="footer-line"></div>
+  </div>
+  <footer>
+    <div class="footer-left">Crafted by <strong>Sagnik Pramanik</strong> &nbsp;|&nbsp; Roll No. 2330399 &nbsp;|&nbsp; ECS-04 &nbsp;|&nbsp; 3rd Year</div>
+    <div class="footer-right">Application Development Lab &nbsp;—&nbsp; 2025</div>
+  </footer>
+
+  <!-- PDF MODAL -->
+  <div class="modal-overlay" id="pdfModal">
+    <div class="modal">
+      <div class="modal-header">
+        <span class="modal-title" id="modalTitle">EXP_00 — Experiment</span>
+        <div class="modal-actions">
+          <a href="#" class="modal-open-btn" id="modalDriveLink" target="_blank" rel="noopener">Open in Drive</a>
+          <button class="modal-close" onclick="closeModal()">✕ Close</button>
+        </div>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/data.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
