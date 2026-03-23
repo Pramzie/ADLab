@@ -25,7 +25,7 @@ const experiments = [
     date: 'Jan 2026',
     objective: 'Design a responsive professional resume using HTML and CSS',
     status: 'completed',
-    pdf: ''
+    pdf: 'https://drive.google.com/file/d/1gJpEzZmyZvrRLAKozt9RSfqlaft9SfuN/view?usp=drive_link'
   },
   {
     num: '02',
@@ -94,7 +94,7 @@ const experiments = [
     stack: 'Kotlin, Android Studio, SharedPreferences, XML',
     date: 'Mar 2026',
     objective: 'Build a sleep tracker Android app with history and goal-setting features',
-    status: 'progress',
-    pdf: ''
+    status: 'completed',
+    pdf: 'https://drive.google.com/file/d/1bZFKfjD7LYHZovGevXkd-zApJ_KL3xPF/view?usp=drive_link'
   }
 ];
